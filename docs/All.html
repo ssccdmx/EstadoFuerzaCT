@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"><html lang="es">
+	<title>Matutino 1</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a84d99523.js" crossorigin="anonymous"></script>
+    <script src="../js/login.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>    
+   
+    
+</head>
+  
+<body>      
+
+  <header id="header" class="header-default">
+
+    <div id="toggle-menu">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+
+    <nav class="menu-principal">
+      <ul>
+        <li>
+          <i style="font-size: 25px;" class="fa fa-file-pdf"></i>
+          <a href="../index.html" title="Evaluación individual">Generar PDF</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+        
+        <li>
+          <i style="font-size: 25px;"class="fa fa-right-to-bracket"></i>
+          <a href="../index.html">Cerrar Sesión</a>
+          <br>
+          <div class="hr"></div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="body-contenido">     
+    <div class="container-header">
+      <div class="container1">
+        <a href="#">
+          <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi3ouWmc289s2c3B0hAosCcanMHev7GpqJ0bdliBvFWxcWUJnBnc_29XfxejXOzG11uND6q4TCVXk-nIMHv5jrun4oAp5NG43gXBzCvk0PUApcZCUE2PK2gbE8Ckv5Ka45oipi3IciATVDOGoDbWI0BlOKLzTV0qKrm3WfKLsgIDhl6vXH4ZJ6_GiUQnQ" style="max-width:100%;">
+        </a>
+      </div>
+      <div class="container2">
+        <ul>
+          <a>Bienvenid@ <strong><span id="userAlias"></span></strong></a>
+            <script src="../js/user.js"></script>
+          <br>
+
+          <i class="fecha-text">
+            <script src="../js/date.js"></script>
+          </i>
+        </ul>
+      </div>
+    </div>  
+
+
+    <main>
+
+      <div id="Level-1">
+        <div class="app">
+          <div class="cardList">
+            <!---button--->
+            <button hidden class="cardList__btn btn btn--left"><div class="icon"><svg><use xlink:href="#arrow-left"></use></svg></button>
+            <!---Endbutton--->
+            <div class="cards__wrapper">
+              <div class="card current--card">
+                <div class="card__image"><img src="https://ssccdmx.github.io/AlbumDUCS/img/Flores%20Luciano%20Mar%C3%ADa%20Nicolasa.png" alt="" /></div>
+              </div>
+            </div>
+            <!---Loader--->
+            <button hidden class="cardList__btn btn btn--right"><div class="icon"><svg><use xlink:href="#arrow-right"></use></svg></div></button></div><div class="infoList"><div class="info__wrapper"><div class="info current--info"></div><div class="info next--info"></div><div class="info previous--info"></div></div></div><div class="app__bg"><div class="app__bg__image current--image"><img src="#" alt="" /></div><div class="app__bg__image next--image"><img src="#" alt="" /></div><div class="app__bg__image previous--image"><img src="#" alt="" /></div></div></div><div class="loading__wrapper"><div class="loader--text">Cargando...</div><div class="loader"><span></span></div>
+            <!---EndLoader--->
+          </div>
+      </div><br>
+
+      <form class="formulario" id="formulario">
+        
+        <div class="container">
+          <div class="Title">
+            <h1>Estado de Fuerza - Contacto Telefónico</h1>
+          </div>
+          <br>
+
+          <div class="container-header1">
+
+            <div class="container-search">
+              <form action=#>
+                <p class="label-search">Turno
+                  <label for="Turno"></label>
+                    <select name="Turno" id="Turno" onchange="location=this.value">
+                      <option style="color:gainsboro;" value="Matutino 1">--Matutino 2--</option>
+                      <option value="..\docs\matutino1.html">Matutino 1</option>
+                      <option value="..\docs\matutino2.html">Matutino 2</option>
+                      <option value="..\docs\velada1.html">Velada 1</option>
+                      <option value="..\docs\velada2.html">Velada 2</option>
+                    </select>
+              </form>
+            </div>
+
+            <div class="container-search">
+              <form action=#>
+                <p class="label-search2">Sede
+                  <label for="Sede"></label>
+                    <select name="Sede" id="Sede" onchange="location=this.value">
+                      <option style="color:gainsboro;" value="Balderas">--Balderas--</option>
+                      <option value="..\docs\matutino1Balderas.html">Balderas</option>
+                      <option value="..\docs\matutino1C5.html">C5</option>
+                    </select>
+              </form>
+            </div>
+
+
+
+            <div class="container-search">
+              <form action=#>
+                <p class="label-search2">Fecha<label style="color:Red">*</label>
+                    <input required class="date" type="date" id="FechaTurno" name="FechaTurno" required>
+              </form>
+            </div>
+
+        </div>
+
+        <div class="container-data">
+          <div class="datos-coordinador1"><i class="fa-solid fa-child"></i>&nbsp;Coordinador/coordinadora</div><br>
+          <div class="datos-coordinador2"></i>Lira Cruz Kathya del Carmen</div><br><br>
+        </div>
+
+
+        <div class="container-data2">
+          <div class="datos-coordinador1"><i class="fa-solid fa-users"></i>&nbsp;Integrantes operativos</div>
+        </div>
+
+           <div class="container-formulario">
+        
+            <div class="container-labels">
+              <div class="labels">
+    
+                <!---Matutino 1 Balderas--->
+                <div hidden class='position' for='M1_AlvarezSaldivarLucia'>Álvarez Saldívar Lucia</div>
+                <div hidden class='position' for='M1_ArroyoSauzaDianaElizabeth'>Arroyo Sauza Diana Elizabeth</div>
+                <div hidden class='position' for='M1_CentenoGonzalezBerenice'>Centeno González Berenice</div>
+                <div hidden class='position' for='M1_FloresLucianoMariaNicolasa'>Flores Luciano María Nicolasa</div>
+                <div hidden class='position' for='M1_GaliciaAlvarezJessica'>Galicia Álvarez Jessica</div>
+                <div hidden class='position' for='M1_HernandezLucasMariElsa'>Hernández Lucas Mari Elsa</div>
+                <div hidden class='position' for='M1_IslasChavezRocio'>Islas Chávez Rocío</div>
+                <div hidden class='position' for='M1_MartinezSanchezJesusCamerino'>Martínez Sánchez Jesús Camerino</div>
+                <div hidden class='position' for='M1_MoralesCastilloJesus'>Morales Castillo Jesús</div>
+                <div hidden class='position' for='M1_PerezBahenaElizabeth'>Pérez Bahena Elizabeth</div>
+                <div hidden class='position' for='M1_PerezCoelloDianaCarolina'>Pérez Coello Diana Carolina</div>
+                <div hidden class='position' for='M1_QuirozSolisVictorOmar'>Quiroz Solís Víctor Omar</div>
+                <div hidden class='position' for='M1_RamirezValdezRafael'>Ramírez Valdez Rafael</div>
+                <div hidden class='position' for='M1_RoblesEspinosaAnaDenisse'>Robles Espinosa Ana Denisse</div>
+                <div hidden class='position' for='M1_RojasGonzalezAngel'>Rojas González Ángel</div>
+                <div hidden class='position' for='M1_SotoHernandezElizabeth'>Soto Hernández Elizabeth</div>
+
+                <!---Matutino 1 C5--->
+                <div hidden class='position' for='M1_BravoPrietoAlejandro'>Bravo Prieto Alejandro</div>
+                <div hidden class='position' for='M1_BarriosCruzJorgeLuis'>Barrios Cruz Jorge Luis</div>
+                <div hidden class='position' for='M1_ContrerasVilchisCarlos'>Contreras Vilchis Carlos</div>
+                <div hidden class='position' for='M1_FloresHassanCarina'>Flores Hassan Carina</div>
+                <div hidden class='position' for='M1_FloresRochaJazmin'>Flores Rocha Jazmín</div>
+                <div hidden class='position' for='M1_LimonDavalosWendi'>Limón Dávalos Wendi</div>
+                <div hidden class='position' for='M1_MarquezMayenLauraAdriana'>Márquez Mayen Laura Adriana</div>
+                <div hidden class='position' for='M1_PerezGrimaldoCuauhtemoc'>Pérez Grimaldo Cuauhtémoc</div>
+                <div hidden class='position' for='M1_RosalioMaximilianoJaide'>Rosalio Maximiliano Jaide</div>
+                <div hidden class='position' for='M1_SanchezGonzalezMinadar'>Sánchez González Minadar</div>
+                <div hidden class='position' for='M1_SorianoValenciaJoseOctavio'>Soriano Valencia José Octavio</div>
+                <div hidden class='position' for='M1_ValenciaJimenezAngel'>Valencia Jiménez Ángel</div>
+                <div hidden class='position' for='M1_VelascoGonzalezFrancisco'>Velasco González Francisco</div>
+                
+                <!---Matutino 2 Balderas--->
+                <div hidden class='position' for='M2_AguillonSerranoVictorHugo'>Aguillon Serrano Víctor Hugo</div>
+                <div hidden class='position' for='M2_AlvarezLopezEnrique'>Álvarez López Enrique</div>
+                <div hidden class='position' for='M2_CuandoFriasMargaritoRoman'>Cuando Frías Margarito Román</div>
+                <div hidden class='position' for='M2_EspinosaLinaresMarioAntonio'>Espinosa Linares Mario Antonio</div>
+                <div hidden class='position' for='M2_GarciaJimenezErika'>García Jiménez Erika</div>
+                <div hidden class='position' for='M2_HernandezMartinezMonicaPatricia'>Hernández Martínez Mónica Patricia</div>
+                <div hidden class='position' for='M2_LiraCruzKathyadelCarmen'>Lira Cruz Kathya del Carmen</div>
+                <div hidden class='position' for='M2_MonroyLozadaHugoJavier'>Monroy Lozada Hugo Javier</div>
+                <div hidden class='position' for='M2_PachecoArevaloJoseAntonio'>Pacheco Arévalo José Antonio</div>
+                <div hidden class='position' for='M2_QuintanaSanchezRuben'>Quintana Sánchez Rubén</div>
+                <div hidden class='position' for='M2_RamirezJimenezPerlaPatricia'>Ramírez Jiménez Perla Patricia</div>
+                <div hidden class='position' for='M2_VelaGuisadoKarinaNelly'>Vela Guisado Karina Nelly</div>
+                <div hidden class='position' for='M2_ZugarazoSerranoLuisGerardo'>Zugarazo Serrano Luis Gerardo</div>
+                
+                <!---Matutino 2 C5--->
+                <div hidden class='position' for='M2_CandidoMorenoJuana'>Cándido Moreno Juana</div>
+                <div hidden class='position' for='M2_DelgadoTotoDaniel'>Delgado Toto Daniel</div>
+                <div hidden class='position' for='M2_JimenezNoriegaJuanaCarolina'>Jiménez Noriega Juana Carolina</div>
+                <div hidden class='position' for='M2_LopezMartinezJosefinaFabiola'>López Martínez Josefina Fabiola</div>
+                <div hidden class='position' for='M2_MonroyMartinezArizbe'>Monroy Martínez Arizbe</div>
+                <div hidden class='position' for='M2_MoraVelascoRoberto'>Mora Velasco Roberto</div>
+                <div hidden class='position' for='M2_NavaSolisBernardo'>Nava Solís Bernardo</div>
+                <div hidden class='position' for='M2_PerezPerezIsela'>Pérez Pérez Isela</div>
+                <div hidden class='position' for='M2_QuezadaBautistaOscar'>Quezada Bautista Oscar</div>
+                <div hidden class='position' for='M2_ReyesRosasIvan'>Reyes Rosas Iván</div>
+                <div hidden class='position' for='M2_SalcedoHernandezElizabeth'>Salcedo Hernández Elizabeth</div>
+                <div hidden class='position' for='M2_SandovalMoralesGabriela'>Sandoval Morales Gabriela</div>
+                <div hidden class='position' for='M2_UribeJimenezDaniel'>Uribe Jiménez Daniel</div>
+                <div hidden class='position' for='M2_VelaGuisadoVictorHugo'>Vela Guisado Víctor Hugo</div>
+                
+                <!---Velada 1 Balderas--->
+                <div hidden class='position' for='V1_BautistaHernandezAurelio'>Bautista Hernández Aurelio</div>
+                <div hidden class='position' for='V1_ClaudisPascualFabiola'>Claudis Pascual Fabiola</div>
+                <div hidden class='position' for='V1_CortesRamirezRoberto'>Cortes Ramírez Roberto</div>
+                <div hidden class='position' for='V1_GalindoHernandezChristianJavier'>Galindo Hernández Christian Javier</div>
+                <div hidden class='position' for='V1_GarciaDiazAlejandro'>García Díaz Alejandro</div>
+                <div hidden class='position' for='V1_HernandezFloresAndres'>Hernández Flores Andrés</div>
+                <div hidden class='position' for='V1_HernandezMuñozHector'>Hernández Muñoz Héctor  </div>
+                <div hidden class='position' for='V1_JimenezRojasJovaniCatarino'>Jiménez Rojas Jovani Catarino</div>
+                <div hidden class='position' for='V1_MartinezLopezJorgeArmando'>Martínez López Jorge Armando</div>
+                <div hidden class='position' for='V1_NavaRoblesPaolaIsela'>Nava Robles Paola Isela</div>
+                
+                <!---Velada 1 C5--->
+                <div hidden class='position' for='V1_AlbaCoronaErikaYazmin'>Alba Corona Erika Yazmín</div>
+                <div hidden class='position' for='V1_BaezPerezRuth'>Báez Pérez Ruth</div>
+                <div hidden class='position' for='V1_CruzLopezEmmanuel'>Cruz López Emmanuel</div>
+                <div hidden class='position' for='V1_CruzSanchezIsraelIvan'>Cruz Sánchez Israel Iván</div>
+                <div hidden class='position' for='V1_HernandezMarinIvan'>Hernández Marín Iván</div>
+                <div hidden class='position' for='V1_MorenoCarmonaRicardo'>Moreno Carmona Ricardo</div>
+                <div hidden class='position' for='V1_RodriguezHernandezMaGuadalupe'>Rodríguez Hernández Ma. Guadalupe</div>
+                <div hidden class='position' for='V1_TrejoGermanMarina'>Trejo German Marina</div>
+                
+                <!---Velada 2 Balderas--->
+                <div hidden class='position' for='V2_ArgumedoLozanoCarlos'>Argumedo Lozano Carlos</div>
+                <div hidden class='position' for='V2_ArroyoHernandezMarioAlberto'>Arroyo Hernández Mario Alberto</div>
+                <div hidden class='position' for='V2_BaltazarUlisesAraceli'>Baltazar Ulises Araceli</div>
+                <div hidden class='position' for='V2_DelgadoGarciaClaudia'>Delgado García Claudia</div>
+                <div hidden class='position' for='V2_GarciaMartinezJulioCesar'>García Martínez Julio Cesar</div>
+                <div hidden class='position' for='V2_InocencioMarinAlejandro'>Inocencio Marín Alejandro </div>
+                <div hidden class='position' for='V2_RamirezBautistaJulioCesar'>Ramírez Bautista Julio Cesar</div>
+                <div hidden class='position' for='V2_RamosTrejoCarlosUlises'>Ramos Trejo Carlos Ulises</div>
+                <div hidden class='position' for='V2_TorresSantillanSunashyNayelli'>Torres Santillán Sunashy Nayelli</div>
+                <div hidden class='position' for='V2_VarelaPeñalozaAlmaVivian'>Varela Peñaloza Alma Vivian</div>
+                
+                <!---Velada 2 C5--->
+                <div hidden class='position' for='V2_BaezLopezLauraHaidee'>Báez López Laura Haidee</div>
+                <div hidden class='position' for='V2_CruzAlejoMelvaYessenia'>Cruz Alejo Melva Yessenia  </div>
+                <div hidden class='position' for='V2_FloresMoralesEdmundo'>Flores Morales Edmundo</div>
+                <div hidden class='position' for='V2_GarciaOrtizCesarArmando'>García Ortiz Cesar Armando</div>
+                <div hidden class='position' for='V2_HernandezLunaAntonio'>Hernández Luna Antonio</div>
+                <div hidden class='position' for='V2_JaimesLopezJenniferMarisol'>Jaimes López Jennifer Marisol</div>
+                <div hidden class='position' for='V2_JimenezSanchezMariaDelRosario'>Jiménez Sánchez María Del Rosario</div>
+                <div hidden class='position' for='V2_PalaciosOrdazSantaCarmen'>Palacios Ordaz Santa Carmen</div>
+                <div hidden class='position' for='V2_RamirezPerezJuanCarlos'>Ramírez Pérez Juan Carlos</div>
+                
+              </div>
+    
+              <div class="selects">
+                
+                <!---Matutino 1 Balderas--->
+                <div hidden class='select-container' name='M1_AlvarezSaldivarLucia' data-id='M1_AlvarezSaldivarLucia'></div>
+                <div hidden class='select-container' name='M1_ArroyoSauzaDianaElizabeth' data-id='M1_ArroyoSauzaDianaElizabeth'></div>
+                <div hidden class='select-container' name='M1_CentenoGonzalezBerenice' data-id='M1_CentenoGonzalezBerenice'></div>
+                <div hidden hidden class='select-container' name='M1_FloresLucianoMariaNicolasa' data-id='M1_FloresLucianoMariaNicolasa'></div>
+                <div hidden class='select-container' name='M1_GaliciaAlvarezJessica' data-id='M1_GaliciaAlvarezJessica'></div>
+                <div hidden class='select-container' name='M1_HernandezLucasMariElsa' data-id='M1_HernandezLucasMariElsa'></div>
+                <div hidden class='select-container' name='M1_IslasChavezRocio' data-id='M1_IslasChavezRocio'></div>
+                <div hidden class='select-container' name='M1_MartinezSanchezJesusCamerino' data-id='M1_MartinezSanchezJesusCamerino'></div>
+                <div hidden class='select-container' name='M1_MoralesCastilloJesus' data-id='M1_MoralesCastilloJesus'></div>
+                <div hidden class='select-container' name='M1_PerezBahenaElizabeth' data-id='M1_PerezBahenaElizabeth'></div>
+                <div hidden class='select-container' name='M1_PerezCoelloDianaCarolina' data-id='M1_PerezCoelloDianaCarolina'></div>
+                <div hidden class='select-container' name='M1_QuirozSolisVictorOmar' data-id='M1_QuirozSolisVictorOmar'></div>
+                <div hidden class='select-container' name='M1_RamirezValdezRafael' data-id='M1_RamirezValdezRafael'></div>
+                <div hidden class='select-container' name='M1_RoblesEspinosaAnaDenisse' data-id='M1_RoblesEspinosaAnaDenisse'></div>
+                <div hidden class='select-container' name='M1_RojasGonzalezAngel' data-id='M1_RojasGonzalezAngel'></div>
+                <div hidden class='select-container' name='M1_SotoHernandezElizabeth' data-id='M1_SotoHernandezElizabeth'></div>
+
+                <!---Matutino 1 C5--->
+                <div hidden class='select-container' name='M1_BravoPrietoAlejandro' data-id='M1_BravoPrietoAlejandro'></div>
+                <div hidden class='select-container' name='M1_BarriosCruzJorgeLuis' data-id='M1_BarriosCruzJorgeLuis'></div>
+                <div hidden class='select-container' name='M1_ContrerasVilchisCarlos' data-id='M1_ContrerasVilchisCarlos'></div>
+                <div hidden class='select-container' name='M1_FloresHassanCarina' data-id='M1_FloresHassanCarina'></div>
+                <div hidden class='select-container' name='M1_FloresRochaJazmin' data-id='M1_FloresRochaJazmin'></div>
+                <div hidden class='select-container' name='M1_LimonDavalosWendi' data-id='M1_LimonDavalosWendi'></div>
+                <div hidden class='select-container' name='M1_MarquezMayenLauraAdriana' data-id='M1_MarquezMayenLauraAdriana'></div>
+                <div hidden class='select-container' name='M1_PerezGrimaldoCuauhtemoc' data-id='M1_PerezGrimaldoCuauhtemoc'></div>
+                <div hidden class='select-container' name='M1_RosalioMaximilianoJaide' data-id='M1_RosalioMaximilianoJaide'></div>
+                <div hidden class='select-container' name='M1_SanchezGonzalezMinadar' data-id='M1_SanchezGonzalezMinadar'></div>
+                <div hidden class='select-container' name='M1_SorianoValenciaJoseOctavio' data-id='M1_SorianoValenciaJoseOctavio'></div>
+                <div hidden class='select-container' name='M1_ValenciaJimenezAngel' data-id='M1_ValenciaJimenezAngel'></div>
+                <div hidden class='select-container' name='M1_VelascoGonzalezFrancisco' data-id='M1_VelascoGonzalezFrancisco'></div>
+                
+                <!---Matutino 2 Balderas--->
+                <div hidden class='select-container' name='M2_AguillonSerranoVictorHugo' data-id='M2_AguillonSerranoVictorHugo'></div>
+                <div hidden class='select-container' name='M2_AlvarezLopezEnrique' data-id='M2_AlvarezLopezEnrique'></div>
+                <div hidden class='select-container' name='M2_CuandoFriasMargaritoRoman' data-id='M2_CuandoFriasMargaritoRoman'></div>
+                <div hidden class='select-container' name='M2_EspinosaLinaresMarioAntonio' data-id='M2_EspinosaLinaresMarioAntonio'></div>
+                <div hidden class='select-container' name='M2_GarciaJimenezErika' data-id='M2_GarciaJimenezErika'></div>
+                <div hidden class='select-container' name='M2_HernandezMartinezMonicaPatricia' data-id='M2_HernandezMartinezMonicaPatricia'></div>
+                <div hidden class='select-container' name='M2_LiraCruzKathyadelCarmen' data-id='M2_LiraCruzKathyadelCarmen'></div>
+                <div hidden class='select-container' name='M2_MonroyLozadaHugoJavier' data-id='M2_MonroyLozadaHugoJavier'></div>
+                <div hidden class='select-container' name='M2_PachecoArevaloJoseAntonio' data-id='M2_PachecoArevaloJoseAntonio'></div>
+                <div hidden class='select-container' name='M2_QuintanaSanchezRuben' data-id='M2_QuintanaSanchezRuben'></div>
+                <div hidden class='select-container' name='M2_RamirezJimenezPerlaPatricia' data-id='M2_RamirezJimenezPerlaPatricia'></div>
+                <div hidden class='select-container' name='M2_VelaGuisadoKarinaNelly' data-id='M2_VelaGuisadoKarinaNelly'></div>
+                <div hidden class='select-container' name='M2_ZugarazoSerranoLuisGerardo' data-id='M2_ZugarazoSerranoLuisGerardo'></div>
+                
+                <!---Matutino 1 C5--->
+                <div hidden class='select-container' name='M2_CandidoMorenoJuana' data-id='M2_CandidoMorenoJuana'></div>
+                <div hidden class='select-container' name='M2_DelgadoTotoDaniel' data-id='M2_DelgadoTotoDaniel'></div>
+                <div hidden class='select-container' name='M2_JimenezNoriegaJuanaCarolina' data-id='M2_JimenezNoriegaJuanaCarolina'></div>
+                <div hidden class='select-container' name='M2_LopezMartinezJosefinaFabiola' data-id='M2_LopezMartinezJosefinaFabiola'></div>
+                <div hidden class='select-container' name='M2_MonroyMartinezArizbe' data-id='M2_MonroyMartinezArizbe'></div>
+                <div hidden class='select-container' name='M2_MoraVelascoRoberto' data-id='M2_MoraVelascoRoberto'></div>
+                <div hidden class='select-container' name='M2_NavaSolisBernardo' data-id='M2_NavaSolisBernardo'></div>
+                <div hidden class='select-container' name='M2_PerezPerezIsela' data-id='M2_PerezPerezIsela'></div>
+                <div hidden class='select-container' name='M2_QuezadaBautistaOscar' data-id='M2_QuezadaBautistaOscar'></div>
+                <div hidden class='select-container' name='M2_ReyesRosasIvan' data-id='M2_ReyesRosasIvan'></div>
+                <div hidden class='select-container' name='M2_SalcedoHernandezElizabeth' data-id='M2_SalcedoHernandezElizabeth'></div>
+                <div hidden class='select-container' name='M2_SandovalMoralesGabriela' data-id='M2_SandovalMoralesGabriela'></div>
+                <div hidden class='select-container' name='M2_UribeJimenezDaniel' data-id='M2_UribeJimenezDaniel'></div>
+                <div hidden class='select-container' name='M2_VelaGuisadoVictorHugo' data-id='M2_VelaGuisadoVictorHugo'></div>
+                
+                <!---Velada 1 Balderas--->
+                <div hidden class='select-container' name='V1_BautistaHernandezAurelio' data-id='V1_BautistaHernandezAurelio'></div>
+                <div hidden class='select-container' name='V1_ClaudisPascualFabiola' data-id='V1_ClaudisPascualFabiola'></div>
+                <div hidden class='select-container' name='V1_CortesRamirezRoberto' data-id='V1_CortesRamirezRoberto'></div>
+                <div hidden class='select-container' name='V1_GalindoHernandezChristianJavier' data-id='V1_GalindoHernandezChristianJavier'></div>
+                <div hidden class='select-container' name='V1_GarciaDiazAlejandro' data-id='V1_GarciaDiazAlejandro'></div>
+                <div hidden class='select-container' name='V1_HernandezFloresAndres' data-id='V1_HernandezFloresAndres'></div>
+                <div hidden class='select-container' name='V1_HernandezMuñozHector' data-id='V1_HernandezMuñozHector'></div>
+                <div hidden class='select-container' name='V1_JimenezRojasJovaniCatarino' data-id='V1_JimenezRojasJovaniCatarino'></div>
+                <div hidden class='select-container' name='V1_MartinezLopezJorgeArmando' data-id='V1_MartinezLopezJorgeArmando'></div>
+                <div hidden class='select-container' name='V1_NavaRoblesPaolaIsela' data-id='V1_NavaRoblesPaolaIsela'></div>
+                
+                <!---Velada 1 C5--->
+                <div hidden class='select-container' name='V1_AlbaCoronaErikaYazmin' data-id='V1_AlbaCoronaErikaYazmin'></div>
+                <div hidden class='select-container' name='V1_BaezPerezRuth' data-id='V1_BaezPerezRuth'></div>
+                <div hidden class='select-container' name='V1_CruzLopezEmmanuel' data-id='V1_CruzLopezEmmanuel'></div>
+                <div hidden class='select-container' name='V1_CruzSanchezIsraelIvan' data-id='V1_CruzSanchezIsraelIvan'></div>
+                <div hidden class='select-container' name='V1_HernandezMarinIvan' data-id='V1_HernandezMarinIvan'></div>
+                <div hidden class='select-container' name='V1_MorenoCarmonaRicardo' data-id='V1_MorenoCarmonaRicardo'></div>
+                <div hidden class='select-container' name='V1_RodriguezHernandezMaGuadalupe' data-id='V1_RodriguezHernandezMaGuadalupe'></div>
+                <div hidden class='select-container' name='V1_TrejoGermanMarina' data-id='V1_TrejoGermanMarina'></div>
+                
+                <!---Velada 2 Balderas--->
+                <div hidden class='select-container' name='V2_ArgumedoLozanoCarlos' data-id='V2_ArgumedoLozanoCarlos'></div>
+                <div hidden class='select-container' name='V2_ArroyoHernandezMarioAlberto' data-id='V2_ArroyoHernandezMarioAlberto'></div>
+                <div hidden class='select-container' name='V2_BaltazarUlisesAraceli' data-id='V2_BaltazarUlisesAraceli'></div>
+                <div hidden class='select-container' name='V2_DelgadoGarciaClaudia' data-id='V2_DelgadoGarciaClaudia'></div>
+                <div hidden class='select-container' name='V2_GarciaMartinezJulioCesar' data-id='V2_GarciaMartinezJulioCesar'></div>
+                <div hidden class='select-container' name='V2_InocencioMarinAlejandro' data-id='V2_InocencioMarinAlejandro'></div>
+                <div hidden class='select-container' name='V2_RamirezBautistaJulioCesar' data-id='V2_RamirezBautistaJulioCesar'></div>
+                <div hidden class='select-container' name='V2_RamosTrejoCarlosUlises' data-id='V2_RamosTrejoCarlosUlises'></div>
+                <div hidden class='select-container' name='V2_TorresSantillanSunashyNayelli' data-id='V2_TorresSantillanSunashyNayelli'></div>
+                <div hidden class='select-container' name='V2_VarelaPeñalozaAlmaVivian' data-id='V2_VarelaPeñalozaAlmaVivian'></div>
+                
+                <!---Velada 2 C5--->
+                <div hidden class='select-container' name='V2_BaezLopezLauraHaidee' data-id='V2_BaezLopezLauraHaidee'></div>
+                <div hidden class='select-container' name='V2_CruzAlejoMelvaYessenia' data-id='V2_CruzAlejoMelvaYessenia'></div>
+                <div hidden class='select-container' name='V2_FloresMoralesEdmundo' data-id='V2_FloresMoralesEdmundo'></div>
+                <div hidden class='select-container' name='V2_GarciaOrtizCesarArmando' data-id='V2_GarciaOrtizCesarArmando'></div>
+                <div hidden class='select-container' name='V2_HernandezLunaAntonio' data-id='V2_HernandezLunaAntonio'></div>
+                <div hidden class='select-container' name='V2_JaimesLopezJenniferMarisol' data-id='V2_JaimesLopezJenniferMarisol'></div>
+                <div hidden class='select-container' name='V2_JimenezSanchezMariaDelRosario' data-id='V2_JimenezSanchezMariaDelRosario'></div>
+                <div hidden class='select-container' name='V2_PalaciosOrdazSantaCarmen' data-id='V2_PalaciosOrdazSantaCarmen'></div>
+                <div hidden class='select-container' name='V2_RamirezPerezJuanCarlos' data-id='V2_RamirezPerezJuanCarlos'></div>
+                
+              </div>
+            </div>
+    
+          </div>
+
+
+          <div class="container-data2">
+            <div class="datos-coordinador1"><i class="fa-solid fa-user-plus"></i></i>&nbsp;Personal de apoyo</div>
+          </div>
+
+          <div class="container-formulario">
+            
+            <div class="container-labels">
+              <div class="labels2">
+
+                <div class='position2' for='Apoyo_1'>Apoyo 1</div>
+                <div class='position2' for='Apoyo_2'>Apoyo 2</div>
+                <div class='position2' for='Apoyo_3'>Apoyo 3</div>
+                <div class='position2' for='Apoyo_4'>Apoyo 4</div>
+                <div class='position2' for='Apoyo_5'>Apoyo 5</div>
+                
+              </div>
+
+              <div class="selects">
+
+                <!---Apoyo 1--->
+                <select name="Apoyo_1" id="Apoyo_1">
+                  <option style="color:gainsboro;" value="">-Elegir opción-</option>
+                  <option value='Aguillon Serrano Víctor Hugo'>Aguillon Serrano Víctor Hugo</option>
+                  <option value='Alba Corona Erika Yazmín'>Alba Corona Erika Yazmín</option>
+                  <option value='Álvarez López Enrique'>Álvarez López Enrique</option>
+                  <option value='Álvarez Saldívar Lucia'>Álvarez Saldívar Lucia</option>
+                  <option value='Argumedo Lozano Carlos'>Argumedo Lozano Carlos</option>
+                  <option value='Arroyo Hernández Mario Alberto'>Arroyo Hernández Mario Alberto</option>
+                  <option value='Arroyo Sauza Diana Elizabeth'>Arroyo Sauza Diana Elizabeth</option>
+                  <option value='Báez López Laura Haidee'>Báez López Laura Haidee</option>
+                  <option value='Báez Pérez Ruth'>Báez Pérez Ruth</option>
+                  <option value='Baltazar Ulises Araceli'>Baltazar Ulises Araceli</option>
+                  <option value='Barrios Cruz Jorge Luis'>Barrios Cruz Jorge Luis</option>
+                  <option value='Bautista Hernández Aurelio'>Bautista Hernández Aurelio</option>
+                  <option value='Bravo Prieto Alejandro'>Bravo Prieto Alejandro</option>
+                  <option value='Cándido Moreno Juana'>Cándido Moreno Juana</option>
+                  <option value='Centeno González Berenice'>Centeno González Berenice</option>
+                  <option value='Claudis Pascual Fabiola'>Claudis Pascual Fabiola</option>
+                  <option value='Contreras Vilchis Carlos'>Contreras Vilchis Carlos</option>
+                  <option value='Cortes Ramírez Roberto'>Cortes Ramírez Roberto</option>
+                  <option value='Cruz Alejo Melva Yessenia  '>Cruz Alejo Melva Yessenia  </option>
+                  <option value='Cruz López Emmanuel'>Cruz López Emmanuel</option>
+                  <option value='Cruz Sánchez Israel Iván'>Cruz Sánchez Israel Iván</option>
+                  <option value='Cuando Frías Margarito Román'>Cuando Frías Margarito Román</option>
+                  <option value='Delgado García Claudia'>Delgado García Claudia</option>
+                  <option value='Delgado Toto Daniel'>Delgado Toto Daniel</option>
+                  <option value='Díaz Espinosa Ángel David'>Díaz Espinosa Ángel David</option>
+                  <option value='Espinosa Linares Mario Antonio'>Espinosa Linares Mario Antonio</option>
+                  <option value='Flores Hassan Carina'>Flores Hassan Carina</option>
+                  <option value='Flores Luciano María Nicolasa'>Flores Luciano María Nicolasa</option>
+                  <option value='Flores Morales Edmundo'>Flores Morales Edmundo</option>
+                  <option value='Flores Rocha Jazmín'>Flores Rocha Jazmín</option>
+                  <option value='Galicia Álvarez Jessica'>Galicia Álvarez Jessica</option>
+                  <option value='Galindo Hernández Christian Javier'>Galindo Hernández Christian Javier</option>
+                  <option value='García Díaz Alejandro'>García Díaz Alejandro</option>
+                  <option value='García Jiménez Erika'>García Jiménez Erika</option>
+                  <option value='García Martínez Julio Cesar'>García Martínez Julio Cesar</option>
+                  <option value='García Ortiz Cesar Armando'>García Ortiz Cesar Armando</option>
+                  <option value='Hernández Flores Andrés'>Hernández Flores Andrés</option>
+                  <option value='Hernández Lucas Mari Elsa'>Hernández Lucas Mari Elsa</option>
+                  <option value='Hernández Luna Antonio'>Hernández Luna Antonio</option>
+                  <option value='Hernández Marín Iván'>Hernández Marín Iván</option>
+                  <option value='Hernández Martínez Mónica Patricia'>Hernández Martínez Mónica Patricia</option>
+                  <option value='Hernández Muñoz Héctor  '>Hernández Muñoz Héctor  </option>
+                  <option value='Inocencio Marín Alejandro '>Inocencio Marín Alejandro </option>
+                  <option value='Islas Chávez Rocío'>Islas Chávez Rocío</option>
+                  <option value='Jaimes López Jennifer Marisol'>Jaimes López Jennifer Marisol</option>
+                  <option value='Jiménez Noriega Juana Carolina'>Jiménez Noriega Juana Carolina</option>
+                  <option value='Jiménez Rojas Jovani Catarino'>Jiménez Rojas Jovani Catarino</option>
+                  <option value='Jiménez Sánchez María Del Rosario'>Jiménez Sánchez María Del Rosario</option>
+                  <option value='Jiménez Suárez Emanuel'>Jiménez Suárez Emanuel</option>
+                  <option value='Juárez Salazar Jeimy '>Juárez Salazar Jeimy </option>
+                  <option value='Limón Dávalos Wendi'>Limón Dávalos Wendi</option>
+                  <option value='Lira Cruz Kathya del Carmen'>Lira Cruz Kathya del Carmen</option>
+                  <option value='López Martínez Josefina Fabiola'>López Martínez Josefina Fabiola</option>
+                  <option value='Márquez Mayen Laura Adriana'>Márquez Mayen Laura Adriana</option>
+                  <option value='Martínez López Jorge Armando'>Martínez López Jorge Armando</option>
+                  <option value='Martínez Sánchez Jesús Camerino'>Martínez Sánchez Jesús Camerino</option>
+                  <option value='Monroy Lozada Hugo Javier'>Monroy Lozada Hugo Javier</option>
+                  <option value='Monroy Martínez Arizbe'>Monroy Martínez Arizbe</option>
+                  <option value='Mora Velasco Roberto'>Mora Velasco Roberto</option>
+                  <option value='Morales Castillo Jesús'>Morales Castillo Jesús</option>
+                  <option value='Moreno Carmona Ricardo'>Moreno Carmona Ricardo</option>
+                  <option value='Nava Robles Paola Isela'>Nava Robles Paola Isela</option>
+                  <option value='Nava Solís Bernardo'>Nava Solís Bernardo</option>
+                  <option value='Pacheco Arévalo José Antonio'>Pacheco Arévalo José Antonio</option>
+                  <option value='Palacios Ordaz Santa Carmen'>Palacios Ordaz Santa Carmen</option>
+                  <option value='Pérez Bahena Elizabeth'>Pérez Bahena Elizabeth</option>
+                  <option value='Pérez Coello Diana Carolina'>Pérez Coello Diana Carolina</option>
+                  <option value='Pérez Grimaldo Cuauhtémoc'>Pérez Grimaldo Cuauhtémoc</option>
+                  <option value='Pérez Pérez Isela'>Pérez Pérez Isela</option>
+                  <option value='Quezada Bautista Oscar'>Quezada Bautista Oscar</option>
+                  <option value='Quintana Sánchez Rubén'>Quintana Sánchez Rubén</option>
+                  <option value='Quiroz Solís Víctor Omar'>Quiroz Solís Víctor Omar</option>
+                  <option value='Ramírez Bautista Julio Cesar'>Ramírez Bautista Julio Cesar</option>
+                  <option value='Ramírez Jiménez Perla Patricia'>Ramírez Jiménez Perla Patricia</option>
+                  <option value='Ramírez Pérez Juan Carlos'>Ramírez Pérez Juan Carlos</option>
+                  <option value='Ramírez Valdez Rafael'>Ramírez Valdez Rafael</option>
+                  <option value='Ramos Trejo Carlos Ulises'>Ramos Trejo Carlos Ulises</option>
+                  <option value='Reyes Rosas Iván'>Reyes Rosas Iván</option>
+                  <option value='Robles Espinosa Ana Denisse'>Robles Espinosa Ana Denisse</option>
+                  <option value='Rodríguez Hernández Ma. Guadalupe'>Rodríguez Hernández Ma. Guadalupe</option>
+                  <option value='Rojas González Ángel'>Rojas González Ángel</option>
+                  <option value='Rosalio Maximiliano Jaide'>Rosalio Maximiliano Jaide</option>
+                  <option value='Salcedo Hernández Elizabeth'>Salcedo Hernández Elizabeth</option>
+                  <option value='Sánchez González Minadar'>Sánchez González Minadar</option>
+                  <option value='Sandoval Morales Gabriela'>Sandoval Morales Gabriela</option>
+                  <option value='Soriano Valencia José Octavio'>Soriano Valencia José Octavio</option>
+                  <option value='Soto Hernández Elizabeth'>Soto Hernández Elizabeth</option>
+                  <option value='Torres Santillán Sunashy Nayelli'>Torres Santillán Sunashy Nayelli</option>
+                  <option value='Trejo German Marina'>Trejo German Marina</option>
+                  <option value='Uribe Jiménez Daniel'>Uribe Jiménez Daniel</option>
+                  <option value='Valencia Jiménez Ángel'>Valencia Jiménez Ángel</option>
+                  <option value='Varela Peñaloza Alma Vivian'>Varela Peñaloza Alma Vivian</option>
+                  <option value='Vela Guisado Karina Nelly'>Vela Guisado Karina Nelly</option>
+                  <option value='Vela Guisado Víctor Hugo'>Vela Guisado Víctor Hugo</option>
+                  <option value='Velasco González Francisco'>Velasco González Francisco</option>
+                  <option value='Zugarazo Serrano Luis Gerardo'>Zugarazo Serrano Luis Gerardo</option>
+                </select>
+
+                <!---Apoyo 2--->
+                <select name="Apoyo_2" id="Apoyo_2">
+                  <option style="color:gainsboro;" value="">-Elegir opción-</option>
+                  <option value='Aguillon Serrano Víctor Hugo'>Aguillon Serrano Víctor Hugo</option>
+                  <option value='Alba Corona Erika Yazmín'>Alba Corona Erika Yazmín</option>
+                  <option value='Álvarez López Enrique'>Álvarez López Enrique</option>
+                  <option value='Álvarez Saldívar Lucia'>Álvarez Saldívar Lucia</option>
+                  <option value='Argumedo Lozano Carlos'>Argumedo Lozano Carlos</option>
+                  <option value='Arroyo Hernández Mario Alberto'>Arroyo Hernández Mario Alberto</option>
+                  <option value='Arroyo Sauza Diana Elizabeth'>Arroyo Sauza Diana Elizabeth</option>
+                  <option value='Báez López Laura Haidee'>Báez López Laura Haidee</option>
+                  <option value='Báez Pérez Ruth'>Báez Pérez Ruth</option>
+                  <option value='Baltazar Ulises Araceli'>Baltazar Ulises Araceli</option>
+                  <option value='Barrios Cruz Jorge Luis'>Barrios Cruz Jorge Luis</option>
+                  <option value='Bautista Hernández Aurelio'>Bautista Hernández Aurelio</option>
+                  <option value='Bravo Prieto Alejandro'>Bravo Prieto Alejandro</option>
+                  <option value='Cándido Moreno Juana'>Cándido Moreno Juana</option>
+                  <option value='Centeno González Berenice'>Centeno González Berenice</option>
+                  <option value='Claudis Pascual Fabiola'>Claudis Pascual Fabiola</option>
+                  <option value='Contreras Vilchis Carlos'>Contreras Vilchis Carlos</option>
+                  <option value='Cortes Ramírez Roberto'>Cortes Ramírez Roberto</option>
+                  <option value='Cruz Alejo Melva Yessenia  '>Cruz Alejo Melva Yessenia  </option>
+                  <option value='Cruz López Emmanuel'>Cruz López Emmanuel</option>
+                  <option value='Cruz Sánchez Israel Iván'>Cruz Sánchez Israel Iván</option>
+                  <option value='Cuando Frías Margarito Román'>Cuando Frías Margarito Román</option>
+                  <option value='Delgado García Claudia'>Delgado García Claudia</option>
+                  <option value='Delgado Toto Daniel'>Delgado Toto Daniel</option>
+                  <option value='Díaz Espinosa Ángel David'>Díaz Espinosa Ángel David</option>
+                  <option value='Espinosa Linares Mario Antonio'>Espinosa Linares Mario Antonio</option>
+                  <option value='Flores Hassan Carina'>Flores Hassan Carina</option>
+                  <option value='Flores Luciano María Nicolasa'>Flores Luciano María Nicolasa</option>
+                  <option value='Flores Morales Edmundo'>Flores Morales Edmundo</option>
+                  <option value='Flores Rocha Jazmín'>Flores Rocha Jazmín</option>
+                  <option value='Galicia Álvarez Jessica'>Galicia Álvarez Jessica</option>
+                  <option value='Galindo Hernández Christian Javier'>Galindo Hernández Christian Javier</option>
+                  <option value='García Díaz Alejandro'>García Díaz Alejandro</option>
+                  <option value='García Jiménez Erika'>García Jiménez Erika</option>
+                  <option value='García Martínez Julio Cesar'>García Martínez Julio Cesar</option>
+                  <option value='García Ortiz Cesar Armando'>García Ortiz Cesar Armando</option>
+                  <option value='Hernández Flores Andrés'>Hernández Flores Andrés</option>
+                  <option value='Hernández Lucas Mari Elsa'>Hernández Lucas Mari Elsa</option>
+                  <option value='Hernández Luna Antonio'>Hernández Luna Antonio</option>
+                  <option value='Hernández Marín Iván'>Hernández Marín Iván</option>
+                  <option value='Hernández Martínez Mónica Patricia'>Hernández Martínez Mónica Patricia</option>
+                  <option value='Hernández Muñoz Héctor  '>Hernández Muñoz Héctor  </option>
+                  <option value='Inocencio Marín Alejandro '>Inocencio Marín Alejandro </option>
+                  <option value='Islas Chávez Rocío'>Islas Chávez Rocío</option>
+                  <option value='Jaimes López Jennifer Marisol'>Jaimes López Jennifer Marisol</option>
+                  <option value='Jiménez Noriega Juana Carolina'>Jiménez Noriega Juana Carolina</option>
+                  <option value='Jiménez Rojas Jovani Catarino'>Jiménez Rojas Jovani Catarino</option>
+                  <option value='Jiménez Sánchez María Del Rosario'>Jiménez Sánchez María Del Rosario</option>
+                  <option value='Jiménez Suárez Emanuel'>Jiménez Suárez Emanuel</option>
+                  <option value='Juárez Salazar Jeimy '>Juárez Salazar Jeimy </option>
+                  <option value='Limón Dávalos Wendi'>Limón Dávalos Wendi</option>
+                  <option value='Lira Cruz Kathya del Carmen'>Lira Cruz Kathya del Carmen</option>
+                  <option value='López Martínez Josefina Fabiola'>López Martínez Josefina Fabiola</option>
+                  <option value='Márquez Mayen Laura Adriana'>Márquez Mayen Laura Adriana</option>
+                  <option value='Martínez López Jorge Armando'>Martínez López Jorge Armando</option>
+                  <option value='Martínez Sánchez Jesús Camerino'>Martínez Sánchez Jesús Camerino</option>
+                  <option value='Monroy Lozada Hugo Javier'>Monroy Lozada Hugo Javier</option>
+                  <option value='Monroy Martínez Arizbe'>Monroy Martínez Arizbe</option>
+                  <option value='Mora Velasco Roberto'>Mora Velasco Roberto</option>
+                  <option value='Morales Castillo Jesús'>Morales Castillo Jesús</option>
+                  <option value='Moreno Carmona Ricardo'>Moreno Carmona Ricardo</option>
+                  <option value='Nava Robles Paola Isela'>Nava Robles Paola Isela</option>
+                  <option value='Nava Solís Bernardo'>Nava Solís Bernardo</option>
+                  <option value='Pacheco Arévalo José Antonio'>Pacheco Arévalo José Antonio</option>
+                  <option value='Palacios Ordaz Santa Carmen'>Palacios Ordaz Santa Carmen</option>
+                  <option value='Pérez Bahena Elizabeth'>Pérez Bahena Elizabeth</option>
+                  <option value='Pérez Coello Diana Carolina'>Pérez Coello Diana Carolina</option>
+                  <option value='Pérez Grimaldo Cuauhtémoc'>Pérez Grimaldo Cuauhtémoc</option>
+                  <option value='Pérez Pérez Isela'>Pérez Pérez Isela</option>
+                  <option value='Quezada Bautista Oscar'>Quezada Bautista Oscar</option>
+                  <option value='Quintana Sánchez Rubén'>Quintana Sánchez Rubén</option>
+                  <option value='Quiroz Solís Víctor Omar'>Quiroz Solís Víctor Omar</option>
+                  <option value='Ramírez Bautista Julio Cesar'>Ramírez Bautista Julio Cesar</option>
+                  <option value='Ramírez Jiménez Perla Patricia'>Ramírez Jiménez Perla Patricia</option>
+                  <option value='Ramírez Pérez Juan Carlos'>Ramírez Pérez Juan Carlos</option>
+                  <option value='Ramírez Valdez Rafael'>Ramírez Valdez Rafael</option>
+                  <option value='Ramos Trejo Carlos Ulises'>Ramos Trejo Carlos Ulises</option>
+                  <option value='Reyes Rosas Iván'>Reyes Rosas Iván</option>
+                  <option value='Robles Espinosa Ana Denisse'>Robles Espinosa Ana Denisse</option>
+                  <option value='Rodríguez Hernández Ma. Guadalupe'>Rodríguez Hernández Ma. Guadalupe</option>
+                  <option value='Rojas González Ángel'>Rojas González Ángel</option>
+                  <option value='Rosalio Maximiliano Jaide'>Rosalio Maximiliano Jaide</option>
+                  <option value='Salcedo Hernández Elizabeth'>Salcedo Hernández Elizabeth</option>
+                  <option value='Sánchez González Minadar'>Sánchez González Minadar</option>
+                  <option value='Sandoval Morales Gabriela'>Sandoval Morales Gabriela</option>
+                  <option value='Soriano Valencia José Octavio'>Soriano Valencia José Octavio</option>
+                  <option value='Soto Hernández Elizabeth'>Soto Hernández Elizabeth</option>
+                  <option value='Torres Santillán Sunashy Nayelli'>Torres Santillán Sunashy Nayelli</option>
+                  <option value='Trejo German Marina'>Trejo German Marina</option>
+                  <option value='Uribe Jiménez Daniel'>Uribe Jiménez Daniel</option>
+                  <option value='Valencia Jiménez Ángel'>Valencia Jiménez Ángel</option>
+                  <option value='Varela Peñaloza Alma Vivian'>Varela Peñaloza Alma Vivian</option>
+                  <option value='Vela Guisado Karina Nelly'>Vela Guisado Karina Nelly</option>
+                  <option value='Vela Guisado Víctor Hugo'>Vela Guisado Víctor Hugo</option>
+                  <option value='Velasco González Francisco'>Velasco González Francisco</option>
+                  <option value='Zugarazo Serrano Luis Gerardo'>Zugarazo Serrano Luis Gerardo</option>
+                </select>
+
+                <!---Apoyo 3--->
+                <select name="Apoyo_3" id="Apoyo_3">
+                  <option style="color:gainsboro;" value="">-Elegir opción-</option>
+                  <option value='Aguillon Serrano Víctor Hugo'>Aguillon Serrano Víctor Hugo</option>
+                  <option value='Alba Corona Erika Yazmín'>Alba Corona Erika Yazmín</option>
+                  <option value='Álvarez López Enrique'>Álvarez López Enrique</option>
+                  <option value='Álvarez Saldívar Lucia'>Álvarez Saldívar Lucia</option>
+                  <option value='Argumedo Lozano Carlos'>Argumedo Lozano Carlos</option>
+                  <option value='Arroyo Hernández Mario Alberto'>Arroyo Hernández Mario Alberto</option>
+                  <option value='Arroyo Sauza Diana Elizabeth'>Arroyo Sauza Diana Elizabeth</option>
+                  <option value='Báez López Laura Haidee'>Báez López Laura Haidee</option>
+                  <option value='Báez Pérez Ruth'>Báez Pérez Ruth</option>
+                  <option value='Baltazar Ulises Araceli'>Baltazar Ulises Araceli</option>
+                  <option value='Barrios Cruz Jorge Luis'>Barrios Cruz Jorge Luis</option>
+                  <option value='Bautista Hernández Aurelio'>Bautista Hernández Aurelio</option>
+                  <option value='Bravo Prieto Alejandro'>Bravo Prieto Alejandro</option>
+                  <option value='Cándido Moreno Juana'>Cándido Moreno Juana</option>
+                  <option value='Centeno González Berenice'>Centeno González Berenice</option>
+                  <option value='Claudis Pascual Fabiola'>Claudis Pascual Fabiola</option>
+                  <option value='Contreras Vilchis Carlos'>Contreras Vilchis Carlos</option>
+                  <option value='Cortes Ramírez Roberto'>Cortes Ramírez Roberto</option>
+                  <option value='Cruz Alejo Melva Yessenia  '>Cruz Alejo Melva Yessenia  </option>
+                  <option value='Cruz López Emmanuel'>Cruz López Emmanuel</option>
+                  <option value='Cruz Sánchez Israel Iván'>Cruz Sánchez Israel Iván</option>
+                  <option value='Cuando Frías Margarito Román'>Cuando Frías Margarito Román</option>
+                  <option value='Delgado García Claudia'>Delgado García Claudia</option>
+                  <option value='Delgado Toto Daniel'>Delgado Toto Daniel</option>
+                  <option value='Díaz Espinosa Ángel David'>Díaz Espinosa Ángel David</option>
+                  <option value='Espinosa Linares Mario Antonio'>Espinosa Linares Mario Antonio</option>
+                  <option value='Flores Hassan Carina'>Flores Hassan Carina</option>
+                  <option value='Flores Luciano María Nicolasa'>Flores Luciano María Nicolasa</option>
+                  <option value='Flores Morales Edmundo'>Flores Morales Edmundo</option>
+                  <option value='Flores Rocha Jazmín'>Flores Rocha Jazmín</option>
+                  <option value='Galicia Álvarez Jessica'>Galicia Álvarez Jessica</option>
+                  <option value='Galindo Hernández Christian Javier'>Galindo Hernández Christian Javier</option>
+                  <option value='García Díaz Alejandro'>García Díaz Alejandro</option>
+                  <option value='García Jiménez Erika'>García Jiménez Erika</option>
+                  <option value='García Martínez Julio Cesar'>García Martínez Julio Cesar</option>
+                  <option value='García Ortiz Cesar Armando'>García Ortiz Cesar Armando</option>
+                  <option value='Hernández Flores Andrés'>Hernández Flores Andrés</option>
+                  <option value='Hernández Lucas Mari Elsa'>Hernández Lucas Mari Elsa</option>
+                  <option value='Hernández Luna Antonio'>Hernández Luna Antonio</option>
+                  <option value='Hernández Marín Iván'>Hernández Marín Iván</option>
+                  <option value='Hernández Martínez Mónica Patricia'>Hernández Martínez Mónica Patricia</option>
+                  <option value='Hernández Muñoz Héctor  '>Hernández Muñoz Héctor  </option>
+                  <option value='Inocencio Marín Alejandro '>Inocencio Marín Alejandro </option>
+                  <option value='Islas Chávez Rocío'>Islas Chávez Rocío</option>
+                  <option value='Jaimes López Jennifer Marisol'>Jaimes López Jennifer Marisol</option>
+                  <option value='Jiménez Noriega Juana Carolina'>Jiménez Noriega Juana Carolina</option>
+                  <option value='Jiménez Rojas Jovani Catarino'>Jiménez Rojas Jovani Catarino</option>
+                  <option value='Jiménez Sánchez María Del Rosario'>Jiménez Sánchez María Del Rosario</option>
+                  <option value='Jiménez Suárez Emanuel'>Jiménez Suárez Emanuel</option>
+                  <option value='Juárez Salazar Jeimy '>Juárez Salazar Jeimy </option>
+                  <option value='Limón Dávalos Wendi'>Limón Dávalos Wendi</option>
+                  <option value='Lira Cruz Kathya del Carmen'>Lira Cruz Kathya del Carmen</option>
+                  <option value='López Martínez Josefina Fabiola'>López Martínez Josefina Fabiola</option>
+                  <option value='Márquez Mayen Laura Adriana'>Márquez Mayen Laura Adriana</option>
+                  <option value='Martínez López Jorge Armando'>Martínez López Jorge Armando</option>
+                  <option value='Martínez Sánchez Jesús Camerino'>Martínez Sánchez Jesús Camerino</option>
+                  <option value='Monroy Lozada Hugo Javier'>Monroy Lozada Hugo Javier</option>
+                  <option value='Monroy Martínez Arizbe'>Monroy Martínez Arizbe</option>
+                  <option value='Mora Velasco Roberto'>Mora Velasco Roberto</option>
+                  <option value='Morales Castillo Jesús'>Morales Castillo Jesús</option>
+                  <option value='Moreno Carmona Ricardo'>Moreno Carmona Ricardo</option>
+                  <option value='Nava Robles Paola Isela'>Nava Robles Paola Isela</option>
+                  <option value='Nava Solís Bernardo'>Nava Solís Bernardo</option>
+                  <option value='Pacheco Arévalo José Antonio'>Pacheco Arévalo José Antonio</option>
+                  <option value='Palacios Ordaz Santa Carmen'>Palacios Ordaz Santa Carmen</option>
+                  <option value='Pérez Bahena Elizabeth'>Pérez Bahena Elizabeth</option>
+                  <option value='Pérez Coello Diana Carolina'>Pérez Coello Diana Carolina</option>
+                  <option value='Pérez Grimaldo Cuauhtémoc'>Pérez Grimaldo Cuauhtémoc</option>
+                  <option value='Pérez Pérez Isela'>Pérez Pérez Isela</option>
+                  <option value='Quezada Bautista Oscar'>Quezada Bautista Oscar</option>
+                  <option value='Quintana Sánchez Rubén'>Quintana Sánchez Rubén</option>
+                  <option value='Quiroz Solís Víctor Omar'>Quiroz Solís Víctor Omar</option>
+                  <option value='Ramírez Bautista Julio Cesar'>Ramírez Bautista Julio Cesar</option>
+                  <option value='Ramírez Jiménez Perla Patricia'>Ramírez Jiménez Perla Patricia</option>
+                  <option value='Ramírez Pérez Juan Carlos'>Ramírez Pérez Juan Carlos</option>
+                  <option value='Ramírez Valdez Rafael'>Ramírez Valdez Rafael</option>
+                  <option value='Ramos Trejo Carlos Ulises'>Ramos Trejo Carlos Ulises</option>
+                  <option value='Reyes Rosas Iván'>Reyes Rosas Iván</option>
+                  <option value='Robles Espinosa Ana Denisse'>Robles Espinosa Ana Denisse</option>
+                  <option value='Rodríguez Hernández Ma. Guadalupe'>Rodríguez Hernández Ma. Guadalupe</option>
+                  <option value='Rojas González Ángel'>Rojas González Ángel</option>
+                  <option value='Rosalio Maximiliano Jaide'>Rosalio Maximiliano Jaide</option>
+                  <option value='Salcedo Hernández Elizabeth'>Salcedo Hernández Elizabeth</option>
+                  <option value='Sánchez González Minadar'>Sánchez González Minadar</option>
+                  <option value='Sandoval Morales Gabriela'>Sandoval Morales Gabriela</option>
+                  <option value='Soriano Valencia José Octavio'>Soriano Valencia José Octavio</option>
+                  <option value='Soto Hernández Elizabeth'>Soto Hernández Elizabeth</option>
+                  <option value='Torres Santillán Sunashy Nayelli'>Torres Santillán Sunashy Nayelli</option>
+                  <option value='Trejo German Marina'>Trejo German Marina</option>
+                  <option value='Uribe Jiménez Daniel'>Uribe Jiménez Daniel</option>
+                  <option value='Valencia Jiménez Ángel'>Valencia Jiménez Ángel</option>
+                  <option value='Varela Peñaloza Alma Vivian'>Varela Peñaloza Alma Vivian</option>
+                  <option value='Vela Guisado Karina Nelly'>Vela Guisado Karina Nelly</option>
+                  <option value='Vela Guisado Víctor Hugo'>Vela Guisado Víctor Hugo</option>
+                  <option value='Velasco González Francisco'>Velasco González Francisco</option>
+                  <option value='Zugarazo Serrano Luis Gerardo'>Zugarazo Serrano Luis Gerardo</option>
+                </select>
+
+                <!---Apoyo 4--->
+                <select name="Apoyo_4" id="Apoyo_4">
+                  <option style="color:gainsboro;" value="">-Elegir opción-</option>
+                  <option value='Aguillon Serrano Víctor Hugo'>Aguillon Serrano Víctor Hugo</option>
+                  <option value='Alba Corona Erika Yazmín'>Alba Corona Erika Yazmín</option>
+                  <option value='Álvarez López Enrique'>Álvarez López Enrique</option>
+                  <option value='Álvarez Saldívar Lucia'>Álvarez Saldívar Lucia</option>
+                  <option value='Argumedo Lozano Carlos'>Argumedo Lozano Carlos</option>
+                  <option value='Arroyo Hernández Mario Alberto'>Arroyo Hernández Mario Alberto</option>
+                  <option value='Arroyo Sauza Diana Elizabeth'>Arroyo Sauza Diana Elizabeth</option>
+                  <option value='Báez López Laura Haidee'>Báez López Laura Haidee</option>
+                  <option value='Báez Pérez Ruth'>Báez Pérez Ruth</option>
+                  <option value='Baltazar Ulises Araceli'>Baltazar Ulises Araceli</option>
+                  <option value='Barrios Cruz Jorge Luis'>Barrios Cruz Jorge Luis</option>
+                  <option value='Bautista Hernández Aurelio'>Bautista Hernández Aurelio</option>
+                  <option value='Bravo Prieto Alejandro'>Bravo Prieto Alejandro</option>
+                  <option value='Cándido Moreno Juana'>Cándido Moreno Juana</option>
+                  <option value='Centeno González Berenice'>Centeno González Berenice</option>
+                  <option value='Claudis Pascual Fabiola'>Claudis Pascual Fabiola</option>
+                  <option value='Contreras Vilchis Carlos'>Contreras Vilchis Carlos</option>
+                  <option value='Cortes Ramírez Roberto'>Cortes Ramírez Roberto</option>
+                  <option value='Cruz Alejo Melva Yessenia  '>Cruz Alejo Melva Yessenia  </option>
+                  <option value='Cruz López Emmanuel'>Cruz López Emmanuel</option>
+                  <option value='Cruz Sánchez Israel Iván'>Cruz Sánchez Israel Iván</option>
+                  <option value='Cuando Frías Margarito Román'>Cuando Frías Margarito Román</option>
+                  <option value='Delgado García Claudia'>Delgado García Claudia</option>
+                  <option value='Delgado Toto Daniel'>Delgado Toto Daniel</option>
+                  <option value='Díaz Espinosa Ángel David'>Díaz Espinosa Ángel David</option>
+                  <option value='Espinosa Linares Mario Antonio'>Espinosa Linares Mario Antonio</option>
+                  <option value='Flores Hassan Carina'>Flores Hassan Carina</option>
+                  <option value='Flores Luciano María Nicolasa'>Flores Luciano María Nicolasa</option>
+                  <option value='Flores Morales Edmundo'>Flores Morales Edmundo</option>
+                  <option value='Flores Rocha Jazmín'>Flores Rocha Jazmín</option>
+                  <option value='Galicia Álvarez Jessica'>Galicia Álvarez Jessica</option>
+                  <option value='Galindo Hernández Christian Javier'>Galindo Hernández Christian Javier</option>
+                  <option value='García Díaz Alejandro'>García Díaz Alejandro</option>
+                  <option value='García Jiménez Erika'>García Jiménez Erika</option>
+                  <option value='García Martínez Julio Cesar'>García Martínez Julio Cesar</option>
+                  <option value='García Ortiz Cesar Armando'>García Ortiz Cesar Armando</option>
+                  <option value='Hernández Flores Andrés'>Hernández Flores Andrés</option>
+                  <option value='Hernández Lucas Mari Elsa'>Hernández Lucas Mari Elsa</option>
+                  <option value='Hernández Luna Antonio'>Hernández Luna Antonio</option>
+                  <option value='Hernández Marín Iván'>Hernández Marín Iván</option>
+                  <option value='Hernández Martínez Mónica Patricia'>Hernández Martínez Mónica Patricia</option>
+                  <option value='Hernández Muñoz Héctor  '>Hernández Muñoz Héctor  </option>
+                  <option value='Inocencio Marín Alejandro '>Inocencio Marín Alejandro </option>
+                  <option value='Islas Chávez Rocío'>Islas Chávez Rocío</option>
+                  <option value='Jaimes López Jennifer Marisol'>Jaimes López Jennifer Marisol</option>
+                  <option value='Jiménez Noriega Juana Carolina'>Jiménez Noriega Juana Carolina</option>
+                  <option value='Jiménez Rojas Jovani Catarino'>Jiménez Rojas Jovani Catarino</option>
+                  <option value='Jiménez Sánchez María Del Rosario'>Jiménez Sánchez María Del Rosario</option>
+                  <option value='Jiménez Suárez Emanuel'>Jiménez Suárez Emanuel</option>
+                  <option value='Juárez Salazar Jeimy '>Juárez Salazar Jeimy </option>
+                  <option value='Limón Dávalos Wendi'>Limón Dávalos Wendi</option>
+                  <option value='Lira Cruz Kathya del Carmen'>Lira Cruz Kathya del Carmen</option>
+                  <option value='López Martínez Josefina Fabiola'>López Martínez Josefina Fabiola</option>
+                  <option value='Márquez Mayen Laura Adriana'>Márquez Mayen Laura Adriana</option>
+                  <option value='Martínez López Jorge Armando'>Martínez López Jorge Armando</option>
+                  <option value='Martínez Sánchez Jesús Camerino'>Martínez Sánchez Jesús Camerino</option>
+                  <option value='Monroy Lozada Hugo Javier'>Monroy Lozada Hugo Javier</option>
+                  <option value='Monroy Martínez Arizbe'>Monroy Martínez Arizbe</option>
+                  <option value='Mora Velasco Roberto'>Mora Velasco Roberto</option>
+                  <option value='Morales Castillo Jesús'>Morales Castillo Jesús</option>
+                  <option value='Moreno Carmona Ricardo'>Moreno Carmona Ricardo</option>
+                  <option value='Nava Robles Paola Isela'>Nava Robles Paola Isela</option>
+                  <option value='Nava Solís Bernardo'>Nava Solís Bernardo</option>
+                  <option value='Pacheco Arévalo José Antonio'>Pacheco Arévalo José Antonio</option>
+                  <option value='Palacios Ordaz Santa Carmen'>Palacios Ordaz Santa Carmen</option>
+                  <option value='Pérez Bahena Elizabeth'>Pérez Bahena Elizabeth</option>
+                  <option value='Pérez Coello Diana Carolina'>Pérez Coello Diana Carolina</option>
+                  <option value='Pérez Grimaldo Cuauhtémoc'>Pérez Grimaldo Cuauhtémoc</option>
+                  <option value='Pérez Pérez Isela'>Pérez Pérez Isela</option>
+                  <option value='Quezada Bautista Oscar'>Quezada Bautista Oscar</option>
+                  <option value='Quintana Sánchez Rubén'>Quintana Sánchez Rubén</option>
+                  <option value='Quiroz Solís Víctor Omar'>Quiroz Solís Víctor Omar</option>
+                  <option value='Ramírez Bautista Julio Cesar'>Ramírez Bautista Julio Cesar</option>
+                  <option value='Ramírez Jiménez Perla Patricia'>Ramírez Jiménez Perla Patricia</option>
+                  <option value='Ramírez Pérez Juan Carlos'>Ramírez Pérez Juan Carlos</option>
+                  <option value='Ramírez Valdez Rafael'>Ramírez Valdez Rafael</option>
+                  <option value='Ramos Trejo Carlos Ulises'>Ramos Trejo Carlos Ulises</option>
+                  <option value='Reyes Rosas Iván'>Reyes Rosas Iván</option>
+                  <option value='Robles Espinosa Ana Denisse'>Robles Espinosa Ana Denisse</option>
+                  <option value='Rodríguez Hernández Ma. Guadalupe'>Rodríguez Hernández Ma. Guadalupe</option>
+                  <option value='Rojas González Ángel'>Rojas González Ángel</option>
+                  <option value='Rosalio Maximiliano Jaide'>Rosalio Maximiliano Jaide</option>
+                  <option value='Salcedo Hernández Elizabeth'>Salcedo Hernández Elizabeth</option>
+                  <option value='Sánchez González Minadar'>Sánchez González Minadar</option>
+                  <option value='Sandoval Morales Gabriela'>Sandoval Morales Gabriela</option>
+                  <option value='Soriano Valencia José Octavio'>Soriano Valencia José Octavio</option>
+                  <option value='Soto Hernández Elizabeth'>Soto Hernández Elizabeth</option>
+                  <option value='Torres Santillán Sunashy Nayelli'>Torres Santillán Sunashy Nayelli</option>
+                  <option value='Trejo German Marina'>Trejo German Marina</option>
+                  <option value='Uribe Jiménez Daniel'>Uribe Jiménez Daniel</option>
+                  <option value='Valencia Jiménez Ángel'>Valencia Jiménez Ángel</option>
+                  <option value='Varela Peñaloza Alma Vivian'>Varela Peñaloza Alma Vivian</option>
+                  <option value='Vela Guisado Karina Nelly'>Vela Guisado Karina Nelly</option>
+                  <option value='Vela Guisado Víctor Hugo'>Vela Guisado Víctor Hugo</option>
+                  <option value='Velasco González Francisco'>Velasco González Francisco</option>
+                  <option value='Zugarazo Serrano Luis Gerardo'>Zugarazo Serrano Luis Gerardo</option>
+                </select>
+
+                <!---Apoyo 5--->
+                <select name="Apoyo_5" id="Apoyo_5">
+                  <option style="color:gainsboro;" value="">-Elegir opción-</option>
+                  <option value='Aguillon Serrano Víctor Hugo'>Aguillon Serrano Víctor Hugo</option>
+                  <option value='Alba Corona Erika Yazmín'>Alba Corona Erika Yazmín</option>
+                  <option value='Álvarez López Enrique'>Álvarez López Enrique</option>
+                  <option value='Álvarez Saldívar Lucia'>Álvarez Saldívar Lucia</option>
+                  <option value='Argumedo Lozano Carlos'>Argumedo Lozano Carlos</option>
+                  <option value='Arroyo Hernández Mario Alberto'>Arroyo Hernández Mario Alberto</option>
+                  <option value='Arroyo Sauza Diana Elizabeth'>Arroyo Sauza Diana Elizabeth</option>
+                  <option value='Báez López Laura Haidee'>Báez López Laura Haidee</option>
+                  <option value='Báez Pérez Ruth'>Báez Pérez Ruth</option>
+                  <option value='Baltazar Ulises Araceli'>Baltazar Ulises Araceli</option>
+                  <option value='Barrios Cruz Jorge Luis'>Barrios Cruz Jorge Luis</option>
+                  <option value='Bautista Hernández Aurelio'>Bautista Hernández Aurelio</option>
+                  <option value='Bravo Prieto Alejandro'>Bravo Prieto Alejandro</option>
+                  <option value='Cándido Moreno Juana'>Cándido Moreno Juana</option>
+                  <option value='Centeno González Berenice'>Centeno González Berenice</option>
+                  <option value='Claudis Pascual Fabiola'>Claudis Pascual Fabiola</option>
+                  <option value='Contreras Vilchis Carlos'>Contreras Vilchis Carlos</option>
+                  <option value='Cortes Ramírez Roberto'>Cortes Ramírez Roberto</option>
+                  <option value='Cruz Alejo Melva Yessenia  '>Cruz Alejo Melva Yessenia  </option>
+                  <option value='Cruz López Emmanuel'>Cruz López Emmanuel</option>
+                  <option value='Cruz Sánchez Israel Iván'>Cruz Sánchez Israel Iván</option>
+                  <option value='Cuando Frías Margarito Román'>Cuando Frías Margarito Román</option>
+                  <option value='Delgado García Claudia'>Delgado García Claudia</option>
+                  <option value='Delgado Toto Daniel'>Delgado Toto Daniel</option>
+                  <option value='Díaz Espinosa Ángel David'>Díaz Espinosa Ángel David</option>
+                  <option value='Espinosa Linares Mario Antonio'>Espinosa Linares Mario Antonio</option>
+                  <option value='Flores Hassan Carina'>Flores Hassan Carina</option>
+                  <option value='Flores Luciano María Nicolasa'>Flores Luciano María Nicolasa</option>
+                  <option value='Flores Morales Edmundo'>Flores Morales Edmundo</option>
+                  <option value='Flores Rocha Jazmín'>Flores Rocha Jazmín</option>
+                  <option value='Galicia Álvarez Jessica'>Galicia Álvarez Jessica</option>
+                  <option value='Galindo Hernández Christian Javier'>Galindo Hernández Christian Javier</option>
+                  <option value='García Díaz Alejandro'>García Díaz Alejandro</option>
+                  <option value='García Jiménez Erika'>García Jiménez Erika</option>
+                  <option value='García Martínez Julio Cesar'>García Martínez Julio Cesar</option>
+                  <option value='García Ortiz Cesar Armando'>García Ortiz Cesar Armando</option>
+                  <option value='Hernández Flores Andrés'>Hernández Flores Andrés</option>
+                  <option value='Hernández Lucas Mari Elsa'>Hernández Lucas Mari Elsa</option>
+                  <option value='Hernández Luna Antonio'>Hernández Luna Antonio</option>
+                  <option value='Hernández Marín Iván'>Hernández Marín Iván</option>
+                  <option value='Hernández Martínez Mónica Patricia'>Hernández Martínez Mónica Patricia</option>
+                  <option value='Hernández Muñoz Héctor  '>Hernández Muñoz Héctor  </option>
+                  <option value='Inocencio Marín Alejandro '>Inocencio Marín Alejandro </option>
+                  <option value='Islas Chávez Rocío'>Islas Chávez Rocío</option>
+                  <option value='Jaimes López Jennifer Marisol'>Jaimes López Jennifer Marisol</option>
+                  <option value='Jiménez Noriega Juana Carolina'>Jiménez Noriega Juana Carolina</option>
+                  <option value='Jiménez Rojas Jovani Catarino'>Jiménez Rojas Jovani Catarino</option>
+                  <option value='Jiménez Sánchez María Del Rosario'>Jiménez Sánchez María Del Rosario</option>
+                  <option value='Jiménez Suárez Emanuel'>Jiménez Suárez Emanuel</option>
+                  <option value='Juárez Salazar Jeimy '>Juárez Salazar Jeimy </option>
+                  <option value='Limón Dávalos Wendi'>Limón Dávalos Wendi</option>
+                  <option value='Lira Cruz Kathya del Carmen'>Lira Cruz Kathya del Carmen</option>
+                  <option value='López Martínez Josefina Fabiola'>López Martínez Josefina Fabiola</option>
+                  <option value='Márquez Mayen Laura Adriana'>Márquez Mayen Laura Adriana</option>
+                  <option value='Martínez López Jorge Armando'>Martínez López Jorge Armando</option>
+                  <option value='Martínez Sánchez Jesús Camerino'>Martínez Sánchez Jesús Camerino</option>
+                  <option value='Monroy Lozada Hugo Javier'>Monroy Lozada Hugo Javier</option>
+                  <option value='Monroy Martínez Arizbe'>Monroy Martínez Arizbe</option>
+                  <option value='Mora Velasco Roberto'>Mora Velasco Roberto</option>
+                  <option value='Morales Castillo Jesús'>Morales Castillo Jesús</option>
+                  <option value='Moreno Carmona Ricardo'>Moreno Carmona Ricardo</option>
+                  <option value='Nava Robles Paola Isela'>Nava Robles Paola Isela</option>
+                  <option value='Nava Solís Bernardo'>Nava Solís Bernardo</option>
+                  <option value='Pacheco Arévalo José Antonio'>Pacheco Arévalo José Antonio</option>
+                  <option value='Palacios Ordaz Santa Carmen'>Palacios Ordaz Santa Carmen</option>
+                  <option value='Pérez Bahena Elizabeth'>Pérez Bahena Elizabeth</option>
+                  <option value='Pérez Coello Diana Carolina'>Pérez Coello Diana Carolina</option>
+                  <option value='Pérez Grimaldo Cuauhtémoc'>Pérez Grimaldo Cuauhtémoc</option>
+                  <option value='Pérez Pérez Isela'>Pérez Pérez Isela</option>
+                  <option value='Quezada Bautista Oscar'>Quezada Bautista Oscar</option>
+                  <option value='Quintana Sánchez Rubén'>Quintana Sánchez Rubén</option>
+                  <option value='Quiroz Solís Víctor Omar'>Quiroz Solís Víctor Omar</option>
+                  <option value='Ramírez Bautista Julio Cesar'>Ramírez Bautista Julio Cesar</option>
+                  <option value='Ramírez Jiménez Perla Patricia'>Ramírez Jiménez Perla Patricia</option>
+                  <option value='Ramírez Pérez Juan Carlos'>Ramírez Pérez Juan Carlos</option>
+                  <option value='Ramírez Valdez Rafael'>Ramírez Valdez Rafael</option>
+                  <option value='Ramos Trejo Carlos Ulises'>Ramos Trejo Carlos Ulises</option>
+                  <option value='Reyes Rosas Iván'>Reyes Rosas Iván</option>
+                  <option value='Robles Espinosa Ana Denisse'>Robles Espinosa Ana Denisse</option>
+                  <option value='Rodríguez Hernández Ma. Guadalupe'>Rodríguez Hernández Ma. Guadalupe</option>
+                  <option value='Rojas González Ángel'>Rojas González Ángel</option>
+                  <option value='Rosalio Maximiliano Jaide'>Rosalio Maximiliano Jaide</option>
+                  <option value='Salcedo Hernández Elizabeth'>Salcedo Hernández Elizabeth</option>
+                  <option value='Sánchez González Minadar'>Sánchez González Minadar</option>
+                  <option value='Sandoval Morales Gabriela'>Sandoval Morales Gabriela</option>
+                  <option value='Soriano Valencia José Octavio'>Soriano Valencia José Octavio</option>
+                  <option value='Soto Hernández Elizabeth'>Soto Hernández Elizabeth</option>
+                  <option value='Torres Santillán Sunashy Nayelli'>Torres Santillán Sunashy Nayelli</option>
+                  <option value='Trejo German Marina'>Trejo German Marina</option>
+                  <option value='Uribe Jiménez Daniel'>Uribe Jiménez Daniel</option>
+                  <option value='Valencia Jiménez Ángel'>Valencia Jiménez Ángel</option>
+                  <option value='Varela Peñaloza Alma Vivian'>Varela Peñaloza Alma Vivian</option>
+                  <option value='Vela Guisado Karina Nelly'>Vela Guisado Karina Nelly</option>
+                  <option value='Vela Guisado Víctor Hugo'>Vela Guisado Víctor Hugo</option>
+                  <option value='Velasco González Francisco'>Velasco González Francisco</option>
+                  <option value='Zugarazo Serrano Luis Gerardo'>Zugarazo Serrano Luis Gerardo</option>
+                </select>
+
+              </div>
+
+              <div class="selects">
+                
+                <!---Apoyos--->
+                <div class='select-container' name='A1' data-id='A1'></div>
+                <div class='select-container' name='A2' data-id='A2'></div>
+                <div class='select-container' name='A3' data-id='A3'></div>
+                <div class='select-container' name='A4' data-id='A4'></div>
+                <div class='select-container' name='A5' data-id='A5'></div>
+                
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="container-data2">
+            <div class="datos-coordinador1"><i class="fa-solid fa-id-card"></i>&nbsp;Supervisión</div>
+          </div>
+
+          <div class="container-formulario">
+            
+            <div class="container-labels">
+              <div class="labels">
+
+                <div class='position' for='Supervisor'>Supervisor@</div>
+                <div class='position' for='Coordinador'>Coordinador@<spam style="font-size:small"><br >
+                  Rellenar solo si se está supliendo al coordinador.</spam></div>
+
+              </div>
+
+              <div class="selects">
+              
+                <!---Supervisor--->
+                <select name="Supervisor" id="Supervisor">
+                  <option style="color:gainsboro;" value="">-Elegir opción-</option>
+                  <option value="Díaz Espinosa Ángel David">Díaz Espinosa Ángel David</option>
+                  <option value="Jiménez Suárez Emanuel">Jiménez Suárez Emanuel</option>
+                  <option value="Juárez Salazar Jeimy">Juárez Salazar Jeimy</option>
+                </select>
+                
+
+                <!---Coordinador--->
+                <select name="Coordinador" id="Coordinador">
+                  <option style="color:gainsboro;" value="">-Elegir opción-</option>
+                  <option value='Aguillon Serrano Víctor Hugo'>Aguillon Serrano Víctor Hugo</option>
+                  <option value='Alba Corona Erika Yazmín'>Alba Corona Erika Yazmín</option>
+                  <option value='Álvarez López Enrique'>Álvarez López Enrique</option>
+                  <option value='Álvarez Saldívar Lucia'>Álvarez Saldívar Lucia</option>
+                  <option value='Argumedo Lozano Carlos'>Argumedo Lozano Carlos</option>
+                  <option value='Arroyo Hernández Mario Alberto'>Arroyo Hernández Mario Alberto</option>
+                  <option value='Arroyo Sauza Diana Elizabeth'>Arroyo Sauza Diana Elizabeth</option>
+                  <option value='Báez López Laura Haidee'>Báez López Laura Haidee</option>
+                  <option value='Báez Pérez Ruth'>Báez Pérez Ruth</option>
+                  <option value='Baltazar Ulises Araceli'>Baltazar Ulises Araceli</option>
+                  <option value='Barrios Cruz Jorge Luis'>Barrios Cruz Jorge Luis</option>
+                  <option value='Bautista Hernández Aurelio'>Bautista Hernández Aurelio</option>
+                  <option value='Bravo Prieto Alejandro'>Bravo Prieto Alejandro</option>
+                  <option value='Cándido Moreno Juana'>Cándido Moreno Juana</option>
+                  <option value='Centeno González Berenice'>Centeno González Berenice</option>
+                  <option value='Claudis Pascual Fabiola'>Claudis Pascual Fabiola</option>
+                  <option value='Contreras Vilchis Carlos'>Contreras Vilchis Carlos</option>
+                  <option value='Cortes Ramírez Roberto'>Cortes Ramírez Roberto</option>
+                  <option value='Cruz Alejo Melva Yessenia  '>Cruz Alejo Melva Yessenia  </option>
+                  <option value='Cruz López Emmanuel'>Cruz López Emmanuel</option>
+                  <option value='Cruz Sánchez Israel Iván'>Cruz Sánchez Israel Iván</option>
+                  <option value='Cuando Frías Margarito Román'>Cuando Frías Margarito Román</option>
+                  <option value='Delgado García Claudia'>Delgado García Claudia</option>
+                  <option value='Delgado Toto Daniel'>Delgado Toto Daniel</option>
+                  <option value='Díaz Espinosa Ángel David'>Díaz Espinosa Ángel David</option>
+                  <option value='Espinosa Linares Mario Antonio'>Espinosa Linares Mario Antonio</option>
+                  <option value='Flores Hassan Carina'>Flores Hassan Carina</option>
+                  <option value='Flores Luciano María Nicolasa'>Flores Luciano María Nicolasa</option>
+                  <option value='Flores Morales Edmundo'>Flores Morales Edmundo</option>
+                  <option value='Flores Rocha Jazmín'>Flores Rocha Jazmín</option>
+                  <option value='Galicia Álvarez Jessica'>Galicia Álvarez Jessica</option>
+                  <option value='Galindo Hernández Christian Javier'>Galindo Hernández Christian Javier</option>
+                  <option value='García Díaz Alejandro'>García Díaz Alejandro</option>
+                  <option value='García Jiménez Erika'>García Jiménez Erika</option>
+                  <option value='García Martínez Julio Cesar'>García Martínez Julio Cesar</option>
+                  <option value='García Ortiz Cesar Armando'>García Ortiz Cesar Armando</option>
+                  <option value='Hernández Flores Andrés'>Hernández Flores Andrés</option>
+                  <option value='Hernández Lucas Mari Elsa'>Hernández Lucas Mari Elsa</option>
+                  <option value='Hernández Luna Antonio'>Hernández Luna Antonio</option>
+                  <option value='Hernández Marín Iván'>Hernández Marín Iván</option>
+                  <option value='Hernández Martínez Mónica Patricia'>Hernández Martínez Mónica Patricia</option>
+                  <option value='Hernández Muñoz Héctor  '>Hernández Muñoz Héctor  </option>
+                  <option value='Inocencio Marín Alejandro '>Inocencio Marín Alejandro </option>
+                  <option value='Islas Chávez Rocío'>Islas Chávez Rocío</option>
+                  <option value='Jaimes López Jennifer Marisol'>Jaimes López Jennifer Marisol</option>
+                  <option value='Jiménez Noriega Juana Carolina'>Jiménez Noriega Juana Carolina</option>
+                  <option value='Jiménez Rojas Jovani Catarino'>Jiménez Rojas Jovani Catarino</option>
+                  <option value='Jiménez Sánchez María Del Rosario'>Jiménez Sánchez María Del Rosario</option>
+                  <option value='Jiménez Suárez Emanuel'>Jiménez Suárez Emanuel</option>
+                  <option value='Juárez Salazar Jeimy '>Juárez Salazar Jeimy </option>
+                  <option value='Limón Dávalos Wendi'>Limón Dávalos Wendi</option>
+                  <option value='Lira Cruz Kathya del Carmen'>Lira Cruz Kathya del Carmen</option>
+                  <option value='López Martínez Josefina Fabiola'>López Martínez Josefina Fabiola</option>
+                  <option value='Márquez Mayen Laura Adriana'>Márquez Mayen Laura Adriana</option>
+                  <option value='Martínez López Jorge Armando'>Martínez López Jorge Armando</option>
+                  <option value='Martínez Sánchez Jesús Camerino'>Martínez Sánchez Jesús Camerino</option>
+                  <option value='Monroy Lozada Hugo Javier'>Monroy Lozada Hugo Javier</option>
+                  <option value='Monroy Martínez Arizbe'>Monroy Martínez Arizbe</option>
+                  <option value='Mora Velasco Roberto'>Mora Velasco Roberto</option>
+                  <option value='Morales Castillo Jesús'>Morales Castillo Jesús</option>
+                  <option value='Moreno Carmona Ricardo'>Moreno Carmona Ricardo</option>
+                  <option value='Nava Robles Paola Isela'>Nava Robles Paola Isela</option>
+                  <option value='Nava Solís Bernardo'>Nava Solís Bernardo</option>
+                  <option value='Pacheco Arévalo José Antonio'>Pacheco Arévalo José Antonio</option>
+                  <option value='Palacios Ordaz Santa Carmen'>Palacios Ordaz Santa Carmen</option>
+                  <option value='Pérez Bahena Elizabeth'>Pérez Bahena Elizabeth</option>
+                  <option value='Pérez Coello Diana Carolina'>Pérez Coello Diana Carolina</option>
+                  <option value='Pérez Grimaldo Cuauhtémoc'>Pérez Grimaldo Cuauhtémoc</option>
+                  <option value='Pérez Pérez Isela'>Pérez Pérez Isela</option>
+                  <option value='Quezada Bautista Oscar'>Quezada Bautista Oscar</option>
+                  <option value='Quintana Sánchez Rubén'>Quintana Sánchez Rubén</option>
+                  <option value='Quiroz Solís Víctor Omar'>Quiroz Solís Víctor Omar</option>
+                  <option value='Ramírez Bautista Julio Cesar'>Ramírez Bautista Julio Cesar</option>
+                  <option value='Ramírez Jiménez Perla Patricia'>Ramírez Jiménez Perla Patricia</option>
+                  <option value='Ramírez Pérez Juan Carlos'>Ramírez Pérez Juan Carlos</option>
+                  <option value='Ramírez Valdez Rafael'>Ramírez Valdez Rafael</option>
+                  <option value='Ramos Trejo Carlos Ulises'>Ramos Trejo Carlos Ulises</option>
+                  <option value='Reyes Rosas Iván'>Reyes Rosas Iván</option>
+                  <option value='Robles Espinosa Ana Denisse'>Robles Espinosa Ana Denisse</option>
+                  <option value='Rodríguez Hernández Ma. Guadalupe'>Rodríguez Hernández Ma. Guadalupe</option>
+                  <option value='Rojas González Ángel'>Rojas González Ángel</option>
+                  <option value='Rosalio Maximiliano Jaide'>Rosalio Maximiliano Jaide</option>
+                  <option value='Salcedo Hernández Elizabeth'>Salcedo Hernández Elizabeth</option>
+                  <option value='Sánchez González Minadar'>Sánchez González Minadar</option>
+                  <option value='Sandoval Morales Gabriela'>Sandoval Morales Gabriela</option>
+                  <option value='Soriano Valencia José Octavio'>Soriano Valencia José Octavio</option>
+                  <option value='Soto Hernández Elizabeth'>Soto Hernández Elizabeth</option>
+                  <option value='Torres Santillán Sunashy Nayelli'>Torres Santillán Sunashy Nayelli</option>
+                  <option value='Trejo German Marina'>Trejo German Marina</option>
+                  <option value='Uribe Jiménez Daniel'>Uribe Jiménez Daniel</option>
+                  <option value='Valencia Jiménez Ángel'>Valencia Jiménez Ángel</option>
+                  <option value='Varela Peñaloza Alma Vivian'>Varela Peñaloza Alma Vivian</option>
+                  <option value='Vela Guisado Karina Nelly'>Vela Guisado Karina Nelly</option>
+                  <option value='Vela Guisado Víctor Hugo'>Vela Guisado Víctor Hugo</option>
+                  <option value='Velasco González Francisco'>Velasco González Francisco</option>
+                  <option value='Zugarazo Serrano Luis Gerardo'>Zugarazo Serrano Luis Gerardo</option>
+                </select>
+                
+              </div>
+            </div>
+
+          </div>
+
+
+          <script>
+            // Array de opciones
+            const options = [
+                //Balderas
+                { value: '', text: '-' },
+                { value: 'BaseRadio', text: 'Base de Radio' },
+                { value: 'BaseChoque', text: 'Base Choque' },
+                { value: 'MiPolicía', text: 'Mi Policía' },
+                { value: 'WhatsApp', text: 'WhatsApp' },
+                { value: 'Agente1', text: '8801' },
+                { value: 'Agente2', text: '8802' },
+                { value: 'Agente3', text: '8803' },
+                { value: 'Agente4', text: '8804' },
+                { value: 'Agente5', text: '8805' },
+                { value: 'Agente6', text: '8806' },
+                { value: 'Agente7', text: '8807' },
+                { value: 'Agente8', text: '8808' },
+                { value: 'Agente9', text: '8809' },
+                { value: 'Agente10', text: '8810' },
+                { value: 'Agente11', text: '8811' },
+                { value: 'Agente12', text: '8812' },
+                { value: 'Agente13', text: '8813' },
+                { value: 'Agente14', text: '8814' },
+                { value: 'Agente15', text: '8815' },
+                { value: 'Agente16', text: '8816' },
+                { value: 'Agente19', text: '8819' },
+                //C5
+                //{ value: 'Agente17', text: '8817' },
+                //{ value: 'Agente18', text: '8818' },
+                //{ value: 'Agente20', text: '8820' },
+                //{ value: 'Agente21', text: '8821' },
+                //{ value: 'Agente22', text: '8822' },
+                //{ value: 'Agente23', text: '8823' },
+                //{ value: 'Agente24', text: '8824' },
+                //{ value: 'Agente25', text: '8825' },
+                //{ value: 'Agente26', text: '8826' },
+                //{ value: 'Agente27', text: '8827' },
+                //{ value: 'Agente28', text: '8828' },
+                //{ value: 'Agente29', text: '8829' },
+                //{ value: 'Despacho', text: 'Despacho' },
+                //Incidencia
+                { value: 'Falta', text: 'Falta' },
+                { value: 'Permiso', text: 'Permiso/Cambio de Turno' },
+                { value: 'Vacaciones', text: 'Vacaciones' },
+                { value: 'Licencia Médica', text: 'Licencia médica' },
+                { value: 'CCS', text: 'Evaluación Control y Confianza' },
+            ];
+
+            // Función para crear un <select> con opciones y asignarle un ID
+            function createSelect(id) {
+                const selectElement = document.createElement('select');
+                selectElement.id = id; // Asigna el ID
+
+                // Itera sobre el array de opciones y crea <option> para cada uno
+                options.forEach(optionData => {
+                    const optionElement = document.createElement('option');
+                    optionElement.value = optionData.value;
+                    optionElement.text = optionData.text;
+                    selectElement.appendChild(optionElement);
+                });
+
+                return selectElement;
+            }
+
+            // Encuentra todos los contenedores de select por su clase
+            const containers = document.querySelectorAll('.select-container');
+
+            // Itera sobre cada contenedor y añade el <select> correspondiente
+            containers.forEach(container => {
+                const id = container.getAttribute('data-id'); // Obtiene el ID del atributo data-id
+                const selectElement = createSelect(id); // Crea el <select> con el ID
+                container.appendChild(selectElement); // Añade el <select> al contenedor
+            });
+          </script>
+
+
+          <script>
+                  // Función de validación
+                  function validarFormulario() {
+
+                    const FechaTurno = document.getElementById('FechaTurno').value;
+
+                  // Verificar si Evaluadora e Integrante son diferentes de "-Elige una opción-"
+                  if (FechaTurno === "") {
+                      alert('Por favor, llene el apartado de la fecha.');
+                      event.preventDefault();
+                      return; // Evita que el formulario se envíe
+                  }
+
+                  // Puedes agregar más validaciones si es necesario
+
+                  // Ejecuta cambia_de_pagina() después de la validación exitosa
+                  cambia_de_pagina();
+                  }
+          
+                  // Función para cambiar de página
+                  function cambia_de_pagina() {
+                      setTimeout("location.href='Registro.html';", 1500);
+                  }
+          </script>
+    
+          
+
+          <div class="container-formulario">
+              
+            <div class="contenedor-button">
+              <button class="button-send" type="submit" onclick="javascript:validarFormulario();">
+                Registrar
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                </svg>
+              </button>
+            </div>
+
+            <a style="font-size: 1.3em;color:#1D6389;" href="#top"><i style="font-size: 1.3em;color:#1D6389" class="fa fa-circle-up"></i>Subir</a><br><br>
+
+          </div>
+
+      </form>
+
+      
+    
+    </main>
+  </div>
+
+<script src="../js/app.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/loading.js"></script>
+
+</body>
+</html>
